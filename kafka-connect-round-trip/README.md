@@ -55,3 +55,6 @@ bash source.sh
 cd sink-connector
 bash sink.sh
 ```
+
+## Credit
+* Idea of this exercise is drawn from [kafka-connect-github-source](https://github.com/simplesteph/kafka-connect-github-source) and some of the source code are shamelessly borrowed from there.
