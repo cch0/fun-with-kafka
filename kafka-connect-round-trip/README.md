@@ -1,6 +1,6 @@
 # Kafka Connect Round Trip Serialization/Deserialization
 
-This repository contains a Kafka Source Connector and a Kafka Sink Connector implementation and illustrates round-trip serialization/deserialization of Github issues from a Github repository, into Kafka Topic and eventually consumed and deserialized back to Issue objects.
+This repository contains a Kafka Source Connector and a Kafka Sink Connector implementation and illustrates round-trip serialization/deserialization of Github issues from a Github repository into Kafka Topic and eventually consumed and deserialized back to Issue objects.
 
 Issue on the Github repository will be pulled by Source Connector on a regular basis and Kafka messages are created from that and published to a Kafka Topic.
 
